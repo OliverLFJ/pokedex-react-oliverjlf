@@ -1,0 +1,21 @@
+html {
+  box-sizing: content-box;
+}
+
+html * {
+  box-sizing: inherit;
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background-color: #FF0000;
+}
+
+.general-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 1fr 140px;
+  grid-template-areas: "header header" "content content" "footer footer";
+}

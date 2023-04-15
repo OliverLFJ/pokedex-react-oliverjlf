@@ -1,0 +1,81 @@
+.footer {
+    background-color: #FF0000;
+    grid-area: footer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ornament-footer {
+    box-sizing: border-box;
+    height: 11px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.footer-container-info {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1rem;
+    position: fixed;
+    justify-content: space-between;
+    justify-items: stretch;
+}
+
+.footer-container-info .urls-username {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 1rem;
+    width: 50%;
+}
+
+.urls-username .link-img-github {
+    width: 20%;
+}
+
+.urls-username .link-img-github:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.urls-username .link-img-discord {
+    width: 10%;
+}
+
+.urls-username .link-img-discord:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.footer-container-info .url-user {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.url-user h3 {
+    color: #ffffff;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.col1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col2 {
+    display: flex;
+    justify-content: flex-end;
+}

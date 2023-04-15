@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react'
+import Container from "./components/Container"
+import Header from "./components/Header"
+import Content from "./components/Content"
+import Footer from "./components/Footer"
+import Modal from "./components/Modal"
+import './styles/App.css'
 
-function App() {
+const App = () => {
+  const [showModal, setShowModal] = useState()
+  useEffect(() => {
+    setTimeout(() => setShowModal(true), 300);
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <Container>
+      <Modal onClose={() => setShowModal(false)} showModal={showModal} />
+      <Header />
+      <Content  />
+      <Footer />
+    </Container>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,67 @@
+.headerLogo {
+    background-color: #FF0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-area: header;
+    position: relative;
+}
+
+.container-img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form-img-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+}
+
+.form-img-input:hover {
+    transform: scale(1.01);
+}
+
+.form-container .find-tool-img {
+    width: 6.6vh;
+    position: absolute;
+    left: 0px;
+    margin-left: -2vh;
+}
+
+.form-container .searchPokemon {
+    border-radius: 15px;
+    outline: none;
+    padding: 2%;
+    width: 20vw;
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding-left: 2.2rem;
+    padding-right: 1.5rem;
+    text-align: right !important;
+}
+
+.form-container .searchPokemon:hover {
+    cursor: text;
+}
+
+.logo-and-search {
+    padding: 0px 50px 10px 50px;
+    align-items: center;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.headerLogo img {
+    width: 27%;
+}

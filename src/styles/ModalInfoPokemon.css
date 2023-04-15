@@ -1,0 +1,28 @@
+.all-container-modal-info {
+    display: inline-flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 50;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 2s;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.showInfoModal {
+    display: none;
+    transform: translateX(400px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.modal-pokemon {
+    background: #fd01016f;
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    width: 45%;
+    height: 67%;
+}

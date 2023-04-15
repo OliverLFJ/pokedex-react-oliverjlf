@@ -1,0 +1,104 @@
+.color-circles-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    align-items: center;
+    width: 100%;
+}
+
+.blue-circle-article {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: solid 0.4px #000000;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-circle-article .blue-circle-big-article {
+    width: 24px;
+    height: 24px;
+    background-color: #29B8E4;
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15%;
+}
+
+.blue-circle-big-article .blue-circle-white-article {
+    position: absolute;
+    background-color: #FFFF;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+
+.border-little-circle-article .red-circle-big-article {
+    width: 14.5px;
+    height: 14.5px;
+    background-color: #FF0000;
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15%;
+}
+
+.little-circle-white-article {
+    position: absolute;
+    background-color: #FFFF;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+}
+
+.border-little-circle-article .yellow-circle-big-article {
+    width: 14.5px;
+    height: 14.5px;
+    background-color: #FFDE00;
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15%;
+}
+
+.border-little-circle-article {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: solid 0.4px #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-little-circle-article .green-circle-big-article {
+    width: 14.5px;
+    height: 14.5px;
+    background-color: #0CBC3D;
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15%;
+}
+
