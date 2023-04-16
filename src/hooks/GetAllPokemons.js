@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 const GetAllPokemons = () => {
     var randomColor = ''
-    var simbolos = "0123456789ABCDEF"
     const [dataPokemons, setDataPokemons] = useState([])
     useEffect(() => {
         fetch("https://pokeapi.co/api/v2/pokemon?limit=649&offset=0")
@@ -14,7 +13,7 @@ const GetAllPokemons = () => {
     
     for (let index = 0; index < dataPokemons.length; index++) {
         randomColor = Math.floor(Math.random() * 16777215).toString(16);
-        var newColor = `#${randomColor}7e`
+        var newColor = `#${randomColor}85`
         if (newColor === "#000000") {
             index = index--
         } else {
