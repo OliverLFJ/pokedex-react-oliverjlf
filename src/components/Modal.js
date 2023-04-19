@@ -1,7 +1,6 @@
 import CirclesPokedex from './style-components/CirclesPokedex'
 import PokeballModal from './style-components/PokeballModal'
 import ShowModal from '../hooks/ShowModal'
-import SoundPokedex from '../assets/sounds/SoundPokedex.mp3'
 import '../styles/Modal.css'
 
 
@@ -9,16 +8,6 @@ const Modal = (props) => {
     ShowModal(props)
     const getProps = props.onClose
     const song = () => {
-        const audio = new Audio(SoundPokedex)
-        const response = audio.play()
-        audio.volume = 0.1
-        if (response !== undefined) {
-            response.then(_ => {
-                // to prevent browser audio error
-            }).catch(error => {
-                //error
-            });
-        }
         return getProps
     }
 

@@ -1,0 +1,74 @@
+.circleRed {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    animation: grow 1.2s infinite ease-in-out;
+}
+
+.colorCloseModal {
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #FF0000;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #FFFFFF;
+}
+
+.firstEquis {
+    background-color: #FFFFFF;
+    height: 75%;
+    width: 15%;
+    position: absolute;
+    transform: rotate(-135deg);
+    border-radius: 50px;
+}
+
+.secondEquis {
+    background-color: #FFFFFF;
+    height: 75%;
+    width: 15%;
+    position: absolute;
+    transform: rotate(135deg);
+    border-radius: 50px;
+}
+
+.circleRed:hover {
+    animation: rotation 1.2s infinite ease-in-out;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes grow {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+        background-color: #ff000015;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

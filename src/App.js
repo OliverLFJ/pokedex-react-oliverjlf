@@ -8,16 +8,21 @@ import './styles/App.css'
 
 const App = () => {
   const [showModal, setShowModal] = useState()
+  const [findPokemon, setFindPokemon] = useState('');
   useEffect(() => {
     setTimeout(() => setShowModal(true), 300);
   }, [])
 
+
+  const handleChildData = (data) => {
+    setFindPokemon(data);
+  }
   return (
 
     <Container>
       <Modal onClose={() => setShowModal(false)} showModal={showModal} />
-      <Header />
-      <Content  />
+      <Header onChildData={handleChildData} />
+      <Content inputValue={findPokemon} />
       <Footer />
     </Container>
   )

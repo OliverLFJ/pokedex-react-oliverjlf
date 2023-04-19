@@ -43,8 +43,8 @@
 }
 
 .border-little-circle-article .red-circle-big-article {
-    width: 14.5px;
-    height: 14.5px;
+    width: 90%;
+    height: 90%;
     background-color: #FF0000;
     box-sizing: border-box;
     border-radius: 100%;
@@ -64,8 +64,8 @@
 }
 
 .border-little-circle-article .yellow-circle-big-article {
-    width: 14.5px;
-    height: 14.5px;
+    width: 90%;
+    height: 90%;
     background-color: #FFDE00;
     box-sizing: border-box;
     border-radius: 100%;
@@ -90,8 +90,8 @@
 }
 
 .border-little-circle-article .green-circle-big-article {
-    width: 14.5px;
-    height: 14.5px;
+    width: 90%;
+    height: 90%;
     background-color: #0CBC3D;
     box-sizing: border-box;
     border-radius: 100%;
