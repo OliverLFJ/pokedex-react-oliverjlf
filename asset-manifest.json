@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/pokedex-react-oliverjlf/static/css/main.dba6a9d3.css",
-    "main.js": "/pokedex-react-oliverjlf/static/js/main.b2c05c8c.js",
+    "main.js": "/pokedex-react-oliverjlf/static/js/main.3a80aef8.js",
     "static/js/787.6aed3ed2.chunk.js": "/pokedex-react-oliverjlf/static/js/787.6aed3ed2.chunk.js",
     "static/media/Professor_Oak.png": "/pokedex-react-oliverjlf/static/media/Professor_Oak.e90b728ae8b3cd5bc24c.png",
+    "static/media/ketchum-hand.svg": "/pokedex-react-oliverjlf/static/media/ketchum-hand.69fc804202595d3b1c0da1252d0c31b2.svg",
+    "static/media/pokeball-pokedex.svg": "/pokedex-react-oliverjlf/static/media/pokeball-pokedex.5067c9b6c311fe240132410207b82b00.svg",
+    "static/media/cubone.svg": "/pokedex-react-oliverjlf/static/media/cubone.3ef12a268df460095bc5e8d7a5629331.svg",
+    "static/media/GitHub_Logo_White.png": "/pokedex-react-oliverjlf/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
+    "static/media/pokedex.svg": "/pokedex-react-oliverjlf/static/media/pokedex.60c23d5d25832350304dee587fc63502.svg",
+    "static/media/pokemon-logo.svg": "/pokedex-react-oliverjlf/static/media/pokemon-logo.17b2d8c1482f004467895f547c5a57f7.svg",
     "static/media/wall.svg": "/pokedex-react-oliverjlf/static/media/wall.7117d0a583f5d0ad2512.svg",
     "static/media/pokemonWall.svg": "/pokedex-react-oliverjlf/static/media/pokemonWall.501170448c729852425fe0aaf0b318aa.svg",
     "index.html": "/pokedex-react-oliverjlf/index.html",
     "main.dba6a9d3.css.map": "/pokedex-react-oliverjlf/static/css/main.dba6a9d3.css.map",
-    "main.b2c05c8c.js.map": "/pokedex-react-oliverjlf/static/js/main.b2c05c8c.js.map",
+    "main.3a80aef8.js.map": "/pokedex-react-oliverjlf/static/js/main.3a80aef8.js.map",
     "787.6aed3ed2.chunk.js.map": "/pokedex-react-oliverjlf/static/js/787.6aed3ed2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba6a9d3.css",
-    "static/js/main.b2c05c8c.js"
+    "static/js/main.3a80aef8.js"
   ]
 }
