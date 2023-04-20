@@ -55,7 +55,6 @@ const Content = ({ inputValue }) => {
         };
         filterPokemons();
     }, [inputValue, listPokemons]);
-    console.log(filteredPokemons.length)
     return (
         <div className='content'>
             <ModalInfoPokemon onClose={() => setShowModalInfo(false)} idPokemon={idPoke} showModal={showInfoPokemon} color={color} />

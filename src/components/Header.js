@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import '../styles/Header.css';
 import '../styles/Pokeball.css';
 import Pokeball from './style-components/Pokeball';
