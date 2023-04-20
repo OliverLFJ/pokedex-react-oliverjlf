@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pokedex-react-oliverjlf/static/css/main.dba6a9d3.css",
+    "main.js": "/pokedex-react-oliverjlf/static/js/main.b2c05c8c.js",
+    "static/js/787.6aed3ed2.chunk.js": "/pokedex-react-oliverjlf/static/js/787.6aed3ed2.chunk.js",
+    "static/media/Professor_Oak.png": "/pokedex-react-oliverjlf/static/media/Professor_Oak.e90b728ae8b3cd5bc24c.png",
+    "static/media/wall.svg": "/pokedex-react-oliverjlf/static/media/wall.7117d0a583f5d0ad2512.svg",
+    "static/media/pokemonWall.svg": "/pokedex-react-oliverjlf/static/media/pokemonWall.501170448c729852425fe0aaf0b318aa.svg",
+    "index.html": "/pokedex-react-oliverjlf/index.html",
+    "main.dba6a9d3.css.map": "/pokedex-react-oliverjlf/static/css/main.dba6a9d3.css.map",
+    "main.b2c05c8c.js.map": "/pokedex-react-oliverjlf/static/js/main.b2c05c8c.js.map",
+    "787.6aed3ed2.chunk.js.map": "/pokedex-react-oliverjlf/static/js/787.6aed3ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba6a9d3.css",
+    "static/js/main.b2c05c8c.js"
+  ]
+}
