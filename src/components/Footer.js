@@ -19,8 +19,8 @@ const Footer = () => {
             <div className='footer-container-info'>
                 <div className='col1'>
                     <div className='urls-username'>
-                        <img href='www.google.com' onClick={() => openDiscord('https://www.google.com/')} className='link-img-discord' src={logoDiscord} alt='discord logo' />
-                        <img onClick={() => openGitHub("https://www.google.com/")} className='link-img-github' src={logoGithub} alt='github logo' />
+                        <img href='www.google.com' onClick={() => openDiscord("https://discord.gg/vg3krSGW")} className='link-img-discord' src={logoDiscord} alt='discord logo' />
+                        <img onClick={() => openGitHub("https://github.com/OliverLFJ")} className='link-img-github' src={logoGithub} alt='github logo' />
                     </div>
                 </div>
                 <div className='col2'>
