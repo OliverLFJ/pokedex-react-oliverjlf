@@ -62,7 +62,7 @@ const Content = ({ inputValue }) => {
             <div className='overflow-div'>
                 {filteredPokemons.length !== 0 ?
                     <div className='content-article'>
-                        {filteredPokemons.slice(0, visiblePokemons).map((pokemon, index) => (
+                        {filteredPokemons.slice(0, visiblePokemons).map((pokemon) => (
                             <article style={{ backgroundColor: pokemon.background }} key={pokemon.name} className='info-container-pokemon'>
                                 <div className='circles-pokedex'>
                                     <CirclesPokedexArticle />
