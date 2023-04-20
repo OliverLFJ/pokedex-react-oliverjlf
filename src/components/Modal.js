@@ -1,6 +1,8 @@
 import CirclesPokedex from './style-components/CirclesPokedex'
 import PokeballModal from './style-components/PokeballModal'
 import ShowModal from '../hooks/ShowModal'
+import Cubone from '../assets/images/cubone.svg';
+import HandModal from '../assets/images/ketchum-hand.svg';
 import '../styles/Modal.css'
 
 
@@ -24,9 +26,9 @@ const Modal = (props) => {
                     API to get the pokemon’s strippes
                 </p>
                 <p className='username-github'>OliverLFJ</p>
-                <img className='pokemon-img-modal' alt='cubone' src='/img/cubone.svg' />
+                <img className='pokemon-img-modal' alt='cubone' src={Cubone} />
                 <div className='container-modal-button'>
-                    <img alt='button-close' onClick={song()} className='hand-button' src='/img/ketchum-hand.svg' />
+                    <img alt='button-close' onClick={song()} className='hand-button' src={HandModal} />
                 </div>
                 <PokeballModal />
             </div>

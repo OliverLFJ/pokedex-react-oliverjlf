@@ -1,6 +1,7 @@
 import ShowModalInfo from '../hooks/ShowModalInfo'
 import '../styles/ModalInfoPokemon.css'
 import Grass from '../assets/images/pokemonWall.svg'
+import PokeballImg from '../assets/images/pokeball-pokedex.svg'
 import CloseModal from './style-components/CloseModal'
 import { useEffect, useState } from 'react'
 //import IndividualPokemon from '../hooks/IndividualPokemon'
@@ -25,7 +26,7 @@ const ModalInfoPokemon = (props) => {
                                 <h2>Type</h2>
                                 {data.types.map((type, index) => (
                                     <div key={index} className='pokeball-pleca'>
-                                        <img alt='pokeball' src='/img/pokeball-pokedex.svg' />
+                                        <img alt='pokeball' src={PokeballImg} />
                                         {type.type.name}
                                     </div>
                                 ))}
@@ -42,7 +43,7 @@ const ModalInfoPokemon = (props) => {
                             <div className='container-damage'>
                                 <h2>Base EXP</h2>
                                 <div className='pokeball-pleca-damage'>
-                                    <img alt='pokeball' src='/img/pokeball-pokedex.svg' />
+                                    <img alt='pokeball' src={PokeballImg} />
                                     {data.base_experience}
                                 </div>
                             </div>
