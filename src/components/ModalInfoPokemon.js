@@ -15,7 +15,6 @@ const ModalInfoPokemon = (props) => {
                 .then((data) => setData(data))
         }
     }, [props.idPokemon]);
-
     return (
         <div className={`${props.showModal ? 'all-container-modal-info' : 'showInfoModal'}`}>
             {Object.keys(data).length === 0 ? null :

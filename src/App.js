@@ -9,6 +9,7 @@ import './styles/App.css'
 const App = () => {
   const [showModal, setShowModal] = useState()
   const [findPokemon, setFindPokemon] = useState('');
+
   useEffect(() => {
     setTimeout(() => setShowModal(true), 300);
   }, [])
@@ -17,6 +18,7 @@ const App = () => {
   const handleChildData = (data) => {
     setFindPokemon(data);
   }
+
   return (
 
     <Container>

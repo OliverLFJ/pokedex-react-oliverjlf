@@ -23,6 +23,7 @@
     border: 1px solid #978C8C;
     border-radius: 19px;
     padding-bottom: 3vh;
+    background: transparent;
 }
 
 .info-container-pokemon:hover {
@@ -83,7 +84,7 @@
     font-weight: 900;
     font-size: 1.3rem;
     text-transform: capitalize;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .pokemon-information .img-container-pokemon .pokemonImg {
