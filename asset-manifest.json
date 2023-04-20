@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pokedex-react-oliverjlf/static/css/main.dba6a9d3.css",
-    "main.js": "/pokedex-react-oliverjlf/static/js/main.3a80aef8.js",
+    "main.js": "/pokedex-react-oliverjlf/static/js/main.d166dba4.js",
     "static/js/787.6aed3ed2.chunk.js": "/pokedex-react-oliverjlf/static/js/787.6aed3ed2.chunk.js",
     "static/media/Professor_Oak.png": "/pokedex-react-oliverjlf/static/media/Professor_Oak.e90b728ae8b3cd5bc24c.png",
     "static/media/ketchum-hand.svg": "/pokedex-react-oliverjlf/static/media/ketchum-hand.69fc804202595d3b1c0da1252d0c31b2.svg",
@@ -14,11 +14,11 @@
     "static/media/pokemonWall.svg": "/pokedex-react-oliverjlf/static/media/pokemonWall.501170448c729852425fe0aaf0b318aa.svg",
     "index.html": "/pokedex-react-oliverjlf/index.html",
     "main.dba6a9d3.css.map": "/pokedex-react-oliverjlf/static/css/main.dba6a9d3.css.map",
-    "main.3a80aef8.js.map": "/pokedex-react-oliverjlf/static/js/main.3a80aef8.js.map",
+    "main.d166dba4.js.map": "/pokedex-react-oliverjlf/static/js/main.d166dba4.js.map",
     "787.6aed3ed2.chunk.js.map": "/pokedex-react-oliverjlf/static/js/787.6aed3ed2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba6a9d3.css",
-    "static/js/main.3a80aef8.js"
+    "static/js/main.d166dba4.js"
   ]
 }
